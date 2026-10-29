@@ -19,6 +19,14 @@ Gosto de entender como a tecnologia funciona por trás das operações: desde si
 
 Atualmente, estou desenvolvendo minhas habilidades por meio da rotina profissional, estudos e projetos práticos.
 
+## 🎮 Cyber Battle — meu jogo de batalha
+
+Criei um jogo de batalha por turnos em pixel art, com três ondas de inimigos, ataques, defesa, habilidade especial, cura e XP persistente no navegador.
+
+**[▶ Jogar Cyber Battle](./index.html)** · [Ver código-fonte](./index.html)
+
+> Para publicar como site, ative o GitHub Pages em **Settings → Pages → Deploy from a branch → main → /(root) → Save**. Depois o jogo ficará disponível em `https://gustavo-lisboa.github.io/gustavo-lisboa/`.
+
 ## 🧭 Jornada RPG — evolução profissional
 
 > Cada projeto documentado, laboratório concluído e desafio estudado representa uma nova etapa da jornada.
