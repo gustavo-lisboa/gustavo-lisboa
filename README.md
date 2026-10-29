@@ -1,106 +1,96 @@
+<!--
+  README de perfil — Gustavo Lisboa
+  Estilo: dark / minimalista / profissional
+-->
+
+<div align="center">
+
 # Gustavo Lisboa
 
-<p align="center">
-  <strong>Infraestrutura de TI • Cloud • Cybersecurity</strong><br>
-  <em>Construindo conhecimento, resolvendo problemas e evoluindo um laboratório por vez.</em>
-</p>
+### Suporte & Infraestrutura de TI · Cloud · Cybersecurity
 
-<p align="center">
-  <img src="https://img.shields.io/badge/FOCO-Infraestrutura-0A84FF?style=for-the-badge&labelColor=111827" alt="Foco em infraestrutura">
-  <img src="https://img.shields.io/badge/OBJETIVO-Cybersecurity-2563EB?style=for-the-badge&labelColor=111827" alt="Objetivo em cybersecurity">
-  <img src="https://img.shields.io/badge/IDIOMA-Português-334155?style=for-the-badge&labelColor=111827" alt="Idioma português">
-</p>
+Construindo uma carreira em tecnologia por meio de experiência prática, estudo contínuo e projetos.
 
-## 👨‍💻 Sobre mim
+<br>
 
-Sou estudante de **Análise e Desenvolvimento de Sistemas** e estagiário de TI, com atuação em suporte e infraestrutura. Tenho contato com atendimento a usuários e clientes, análise de chamados, troubleshooting e ambientes Microsoft.
+<a href="https://github.com/gustavo-lisboa">
+  <img src="https://img.shields.io/badge/GitHub-gustavo--lisboa-111827?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+</a>
+<img src="https://img.shields.io/badge/Status-Em%20desenvolvimento-166534?style=flat-square" alt="Em desenvolvimento">
+<img src="https://img.shields.io/badge/Foco-Infraestrutura%20%26%20Cloud-1d4ed8?style=flat-square" alt="Infraestrutura e Cloud">
 
-Gosto de entender como a tecnologia funciona por trás das operações: desde sistemas e redes até serviços em nuvem. Meu objetivo é aprofundar minha experiência em **Infraestrutura e Cloud** e, no longo prazo, direcionar minha carreira para **Cybersecurity**.
+</div>
 
-Atualmente, estou desenvolvendo minhas habilidades por meio da rotina profissional, estudos e projetos práticos.
+---
 
-## 🎮 Cyber Battle — meu jogo de batalha
+## Sobre
 
-Criei um jogo de batalha por turnos em pixel art, com três ondas de inimigos, ataques, defesa, habilidade especial, cura e XP persistente no navegador.
+Sou estudante de **Análise e Desenvolvimento de Sistemas** e estagiário de TI, com experiência em suporte técnico e infraestrutura.
 
-**[▶ Jogar Cyber Battle](./index.html)** · [Ver código-fonte](./index.html)
+No dia a dia, tenho contato com atendimento a clientes, análise e acompanhamento de chamados, troubleshooting e ambientes Microsoft. Essa vivência tem fortalecido minha capacidade de investigar problemas, comunicar soluções e entender as necessidades de diferentes usuários.
 
-> Para publicar como site, ative o GitHub Pages em **Settings → Pages → Deploy from a branch → main → /(root) → Save**. Depois o jogo ficará disponível em `https://gustavo-lisboa.github.io/gustavo-lisboa/`.
+Tenho interesse em aprofundar meus conhecimentos em **infraestrutura, redes e computação em nuvem**, construindo uma base técnica que, futuramente, quero direcionar para **segurança da informação e cybersecurity**.
 
-## 🧭 Jornada RPG — evolução profissional
+## Áreas de interesse
 
-> Cada projeto documentado, laboratório concluído e desafio estudado representa uma nova etapa da jornada.
-
-| Atributo | Status |
+| Área | O que estou desenvolvendo |
 |---|---|
-| **Classe atual** | 🧑‍💻 IT Apprentice |
-| **Nível** | 01 — Novato |
-| **XP** | 0 XP |
-| **Especialização em desenvolvimento** | Infraestrutura |
-| **Objetivo de longo prazo** | Cybersecurity |
+| **Infraestrutura** | Suporte, troubleshooting, Windows e Linux |
+| **Redes** | Fundamentos de redes, conectividade e protocolos |
+| **Cloud** | Microsoft Azure e serviços em nuvem |
+| **Cybersecurity** | Fundamentos de segurança, defesa e análise de ameaças |
+| **Automação** | Python e otimização de tarefas |
 
-### Árvore de evolução
+## Tecnologias
 
-- **IT Apprentice** → fundamentos de suporte e tecnologia
-- **System Administrator** → Windows, Linux e administração de sistemas
-- **Network Operator** → redes, protocolos e conectividade
-- **Cloud Engineer** → Azure, serviços em nuvem e automação
-- **Security Analyst** → monitoramento, defesa e análise de segurança
+<div align="center">
 
-*Os níveis e títulos representam uma trilha de aprendizado, não certificações ou cargos profissionais.*
+<img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=111111" alt="Linux">
+<img src="https://img.shields.io/badge/Microsoft%20365-D83B01?style=for-the-badge&logo=microsoftoffice&logoColor=white" alt="Microsoft 365">
+<img src="https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure">
+<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111" alt="JavaScript">
 
-### Como ganho XP
+</div>
 
-| Conquista | XP |
-|---|---:|
-| Documentar um laboratório prático | +50 XP |
-| Desenvolver um projeto funcional | +100 XP |
-| Concluir um desafio técnico e registrar a solução | +75 XP |
-| Publicar um estudo técnico com demonstração | +50 XP |
+<sub>As tecnologias acima representam ferramentas com as quais tenho contato profissional ou que estou estudando e praticando. Meu nível de experiência varia entre elas.</sub>
 
-**Regra:** XP só é contabilizada quando a atividade é concluída e documentada neste perfil.
+## Projetos em destaque
 
-## 🛠️ Tecnologias e conhecimentos
+### ⚔️ Cyber Battle
+Um jogo de batalha por turnos desenvolvido com HTML, CSS e JavaScript, com interface em pixel art, sistema de combate, inimigos, habilidades e pontuação.
 
-**Experiência e contato profissional**
-- Suporte técnico e atendimento a usuários/clientes
-- Análise, acompanhamento e documentação de chamados
-- Microsoft 365 e fundamentos de Exchange Online
-- Windows e troubleshooting de infraestrutura
+- [Acessar o jogo](./index.html)
+- [Ver o código-fonte](./index.html)
 
-**Em estudo e desenvolvimento**
-- Linux e administração de sistemas
-- Redes de computadores e protocolos
-- Microsoft Azure e computação em nuvem
-- SQL e bancos de dados
-- Python e automação de tarefas
-- HTML, CSS e JavaScript — fundamentos
+### 🧪 Laboratórios e estudos
+Este portfólio será ampliado com laboratórios documentados de infraestrutura, redes, cloud e segurança. Cada publicação buscará apresentar o objetivo, o ambiente utilizado, o processo e os aprendizados.
 
-## 💼 Experiência
+## Jornada de aprendizado
 
-**Estagiário de TI — Innovent**  
-Atuação em suporte e infraestrutura, com atendimento de chamados, contato direto com clientes, análise de incidentes e acompanhamento de demandas relacionadas a ambientes Microsoft.
+Minha evolução profissional está organizada em etapas:
 
-## 🎓 Formação
+1. **Fundamentos de TI** — suporte, sistemas operacionais e troubleshooting.
+2. **Infraestrutura e redes** — administração, conectividade e serviços.
+3. **Cloud e automação** — Azure, infraestrutura em nuvem e scripts.
+4. **Cybersecurity** — fundamentos de segurança, monitoramento e defesa.
+
+Também utilizo uma experiência interativa de batalha como elemento de gamificação do portfólio. A proposta é conectar a evolução no jogo ao desenvolvimento de habilidades e projetos reais.
+
+## Formação
 
 **Tecnologia em Análise e Desenvolvimento de Sistemas (ADS)**  
 Universidade Cidade de São Paulo — UNICID
 
-## 🎯 Próximos objetivos
-
-- [ ] Consolidar fundamentos de redes e protocolos
-- [ ] Aprofundar Linux e administração Windows
-- [ ] Desenvolver laboratórios práticos com Azure
-- [ ] Criar projetos de automação e documentar as soluções
-- [ ] Construir uma base sólida em segurança da informação
-
-## 📌 Projetos
-
-Este espaço será atualizado conforme novos laboratórios, estudos e projetos forem concluídos. A ideia é registrar não apenas o resultado, mas também o problema, o processo de investigação e o que aprendi em cada etapa.
-
 ---
 
-<p align="center">
-  <em>“A evolução acontece quando a teoria encontra a prática.”</em><br>
-  <sub>Em constante aprendizado. Um nível de cada vez.</sub>
-</p>
+<div align="center">
+
+**Sempre aprendendo. Sempre construindo.**
+
+<sub>Este perfil reúne meus estudos, projetos e evolução na área de tecnologia.</sub>
+
+</div>
