@@ -1,7 +1,4 @@
-<!--
-  README de perfil — Gustavo Lisboa
-  Estilo: dark / minimalista / profissional
--->
+<!-- README de perfil — Gustavo Lisboa -->
 
 <div align="center">
 
@@ -58,27 +55,20 @@ Tenho interesse em aprofundar meus conhecimentos em **infraestrutura, redes e co
 
 <sub>As tecnologias acima representam ferramentas com as quais tenho contato profissional ou que estou estudando e praticando. Meu nível de experiência varia entre elas.</sub>
 
-## Projetos em destaque
+## Projetos e estudos
 
-### ⚔️ Cyber Battle
-Um jogo de batalha por turnos desenvolvido com HTML, CSS e JavaScript, com interface em pixel art, sistema de combate, inimigos, habilidades e pontuação.
+Este espaço será utilizado para reunir projetos, laboratórios e estudos práticos relacionados a infraestrutura, redes, cloud, automação e segurança da informação.
 
-- [Acessar o jogo](./index.html)
-- [Ver o código-fonte](./index.html)
-
-### 🧪 Laboratórios e estudos
-Este portfólio será ampliado com laboratórios documentados de infraestrutura, redes, cloud e segurança. Cada publicação buscará apresentar o objetivo, o ambiente utilizado, o processo e os aprendizados.
+Cada publicação buscará apresentar o objetivo, o ambiente utilizado, o processo de desenvolvimento e os aprendizados obtidos.
 
 ## Jornada de aprendizado
 
-Minha evolução profissional está organizada em etapas:
+Minha trajetória de desenvolvimento técnico está concentrada em quatro frentes:
 
 1. **Fundamentos de TI** — suporte, sistemas operacionais e troubleshooting.
 2. **Infraestrutura e redes** — administração, conectividade e serviços.
 3. **Cloud e automação** — Azure, infraestrutura em nuvem e scripts.
 4. **Cybersecurity** — fundamentos de segurança, monitoramento e defesa.
-
-Também utilizo uma experiência interativa de batalha como elemento de gamificação do portfólio. A proposta é conectar a evolução no jogo ao desenvolvimento de habilidades e projetos reais.
 
 ## Formação
 
