@@ -18,6 +18,10 @@ Construindo uma carreira em tecnologia por meio de experiência prática, estudo
 
 </div>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gustavo-lisboa/gustavo-lisboa/main/assets/cyber-battle.svg" alt="Animação pixel art Cyber Battle" width="100%">
+</p>
+
 ---
 
 ## Sobre
