@@ -36,7 +36,7 @@ Tenho interesse em aprofundar meus conhecimentos em **infraestrutura, redes e co
 | **Redes** | Fundamentos de redes, conectividade e protocolos |
 | **Cloud** | Microsoft Azure e serviços em nuvem |
 | **Cybersecurity** | Fundamentos de segurança, defesa e análise de ameaças |
-| **Automação** | Python e otimização de tarefas |
+| **Automação** | Fundamentos de automação de tarefas |
 
 ## Tecnologias
 
@@ -46,10 +46,7 @@ Tenho interesse em aprofundar meus conhecimentos em **infraestrutura, redes e co
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=111111" alt="Linux">
 <img src="https://img.shields.io/badge/Microsoft%20365-D83B01?style=for-the-badge&logo=microsoftoffice&logoColor=white" alt="Microsoft 365">
 <img src="https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure">
-<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL">
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111" alt="JavaScript">
 
 </div>
 
@@ -67,7 +64,7 @@ Minha trajetória de desenvolvimento técnico está concentrada em quatro frente
 
 1. **Fundamentos de TI** — suporte, sistemas operacionais e troubleshooting.
 2. **Infraestrutura e redes** — administração, conectividade e serviços.
-3. **Cloud e automação** — Azure, infraestrutura em nuvem e scripts.
+3. **Cloud e automação** — Azure e serviços em nuvem.
 4. **Cybersecurity** — fundamentos de segurança, monitoramento e defesa.
 
 ## Formação
