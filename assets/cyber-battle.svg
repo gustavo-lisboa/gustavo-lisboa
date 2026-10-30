@@ -1,49 +1,142 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="title desc">
-<title id="title">Cyber Battle — pixel animation</title>
-<desc id="desc">An animated pixel-art battle between a blue tech guardian and a pink digital monster.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" role="img" aria-labelledby="title desc">
+<title id="title">CYBERQUEST — Infrastructure &amp; Security Core</title>
+<desc id="desc">Decorative animated cyberpunk interface featuring a glowing blue central digital core, connected server nodes, network pulses, scanning radar and futuristic HUD elements. All indicators are visual effects, not live monitoring data.</desc>
 <defs>
-  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#27405d" stroke-width="1" opacity=".45"/></pattern>
-  <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#101b31"/><stop offset="1" stop-color="#070c17"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#050b18"/><stop offset=".52" stop-color="#09172b"/><stop offset="1" stop-color="#100d2b"/>
+  </linearGradient>
+  <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#8af7ff"/><stop offset=".45" stop-color="#18bfff"/><stop offset="1" stop-color="#625bff"/>
+  </linearGradient>
+  <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#20dfff" stop-opacity="0"/><stop offset=".5" stop-color="#54edff"/><stop offset="1" stop-color="#20dfff" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="aura"><stop stop-color="#13cfff" stop-opacity=".28"/><stop offset="1" stop-color="#13cfff" stop-opacity="0"/></radialGradient>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="12"/></filter>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#2c6690" stroke-width=".7" opacity=".28"/>
+  </pattern>
+  <clipPath id="screen"><rect x="1" y="1" width="998" height="338" rx="13"/></clipPath>
 </defs>
-<rect width="900" height="300" fill="url(#bg)"/><rect width="900" height="300" fill="url(#grid)"/>
-<path d="M0 225H900" stroke="#4fe5ff" stroke-opacity=".45" stroke-width="2"/>
-<path d="M0 250H900" stroke="#20334d" stroke-width="25"/>
-<g font-family="monospace" font-weight="bold" font-size="13" fill="#72eaff" letter-spacing="2"><text x="28" y="30">GUSTAVO.EXE</text><text x="28" y="48" fill="#8198b8" font-size="10">CYBER ARENA // TRAINING SIMULATION</text></g>
-<g font-family="monospace" font-size="11" fill="#ffd36a" letter-spacing="2"><text x="450" y="34" text-anchor="middle">BATTLE IN PROGRESS</text></g>
-<g transform="translate(0 0)">
-  <g transform="translate(185 94)">
-    <animateTransform attributeName="transform" type="translate" values="185 94;185 88;185 94" dur="1.1s" repeatCount="indefinite"/>
-    <rect x="26" y="0" width="42" height="12" fill="#53cfff"/><rect x="18" y="12" width="58" height="42" fill="#b9f4ff"/>
-    <rect x="27" y="22" width="12" height="12" fill="#10233d"/><rect x="55" y="22" width="12" height="12" fill="#10233d"/>
-    <rect x="31" y="25" width="5" height="5" fill="#65eaff"/><rect x="59" y="25" width="5" height="5" fill="#65eaff"/>
-    <rect x="12" y="54" width="70" height="54" fill="#286bb1"/><rect x="0" y="60" width="12" height="34" fill="#b9f4ff"/><rect x="82" y="60" width="12" height="34" fill="#b9f4ff"/>
-    <rect x="22" y="108" width="20" height="32" fill="#a5c7e9"/><rect x="52" y="108" width="20" height="32" fill="#a5c7e9"/>
-    <rect x="16" y="140" width="28" height="10" fill="#53cfff"/><rect x="50" y="140" width="28" height="10" fill="#53cfff"/>
-    <rect x="39" y="62" width="16" height="16" fill="#53e6ff"/>
+<style>
+  .mono{font-family:Consolas,Monaco,'Courier New',monospace}
+  .cyan{fill:#70edff}.muted{fill:#7095b7}.white{fill:#e5faff}
+  .line{fill:none;stroke:#24c9f2;stroke-width:1.3;opacity:.55}
+  .pulse{animation:pulse 2.2s ease-in-out infinite}
+  .pulse2{animation:pulse 3.4s ease-in-out infinite .8s}
+  .flow{stroke-dasharray:5 13;animation:flow 2.8s linear infinite}
+  .spin{transform-origin:500px 177px;animation:spin 22s linear infinite}
+  .reverse{transform-origin:500px 177px;animation:spin 16s linear infinite reverse}
+  .radar{transform-origin:500px 177px;animation:spin 5s linear infinite}
+  .scan{animation:scan 4.8s linear infinite}
+  .blink{animation:blink 1.1s steps(2,end) infinite}
+  @keyframes pulse{0%,100%{opacity:.38}50%{opacity:1}}
+  @keyframes flow{to{stroke-dashoffset:-72}}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes scan{0%{transform:translateY(0);opacity:0}12%{opacity:.65}88%{opacity:.65}100%{transform:translateY(250px);opacity:0}}
+  @keyframes blink{50%{opacity:.2}}
+</style>
+<g clip-path="url(#screen)">
+  <rect width="1000" height="340" rx="14" fill="url(#bg)"/>
+  <rect width="1000" height="340" fill="url(#grid)"/>
+  <ellipse cx="500" cy="178" rx="290" ry="190" fill="url(#aura)"/>
+  <path d="M0 54H1000M0 286H1000" stroke="#1c5278" opacity=".55"/>
+  <path d="M0 57H1000" stroke="#48dfff" opacity=".12"/>
+  <rect x="0" y="0" width="1000" height="2" fill="url(#beam)" class="scan"/>
+  <!-- Header -->
+  <text x="30" y="31" class="mono cyan" font-size="15" font-weight="bold" letter-spacing="3">CYBERQUEST</text>
+  <text x="30" y="46" class="mono muted" font-size="8" letter-spacing="2">INFRASTRUCTURE // SECURITY OPERATIONS</text>
+  <text x="970" y="30" class="mono muted" font-size="9" text-anchor="end" letter-spacing="1.5">DIGITAL CORE INTERFACE</text>
+  <circle cx="949" cy="27" r="3.5" fill="#52f6c2" filter="url(#glow)" class="pulse"/>
+  <text x="936" y="30" class="mono" fill="#52f6c2" font-size="8" text-anchor="end">ONLINE</text>
+  <!-- Decorative side panels -->
+  <g transform="translate(30 82)">
+    <path d="M0 0H170L180 10V112H0Z" fill="#081a2b" fill-opacity=".78" stroke="#1b7298"/>
+    <text x="14" y="22" class="mono cyan" font-size="9" letter-spacing="1.5">01 // NETWORK</text>
+    <path d="M14 33H164" stroke="#23617e"/>
+    <g fill="none" stroke="#42dfff" stroke-width="1.2">
+      <path d="M25 57H73L94 78H145" opacity=".75"/>
+      <path d="M25 88H58L79 68H145" opacity=".4"/>
+    </g>
+    <g fill="#57eaff" filter="url(#glow)">
+      <circle cx="25" cy="57" r="3" class="pulse"/><circle cx="73" cy="57" r="3"/>
+      <circle cx="94" cy="78" r="3" class="pulse2"/><circle cx="145" cy="78" r="3"/>
+      <circle cx="25" cy="88" r="3"/><circle cx="145" cy="68" r="3" class="pulse"/>
+    </g>
+    <text x="14" y="103" class="mono muted" font-size="8">PACKET FLOW // VISUAL</text>
   </g>
-  <g transform="translate(580 95)">
-    <animateTransform attributeName="transform" type="translate" values="580 95;580 87;580 95" dur="1.35s" repeatCount="indefinite"/>
-    <rect x="25" y="0" width="52" height="14" fill="#8b2859"/><rect x="12" y="14" width="78" height="60" fill="#e44780"/>
-    <rect x="22" y="28" width="20" height="18" fill="#fff0f5"/><rect x="60" y="28" width="20" height="18" fill="#fff0f5"/>
-    <rect x="29" y="33" width="10" height="12" fill="#241127"/><rect x="65" y="33" width="10" height="12" fill="#241127"/>
-    <rect x="37" y="55" width="30" height="7" fill="#68183f"/><rect x="22" y="74" width="18" height="34" fill="#a92f62"/><rect x="62" y="74" width="18" height="34" fill="#a92f62"/>
-    <rect x="12" y="38" width="12" height="22" fill="#ff8db7"/><rect x="78" y="38" width="12" height="22" fill="#ff8db7"/>
-    <rect x="18" y="108" width="24" height="22" fill="#8b2859"/><rect x="60" y="108" width="24" height="22" fill="#8b2859"/>
+  <g transform="translate(800 82)">
+    <path d="M0 10L10 0H170V112H0Z" fill="#081a2b" fill-opacity=".78" stroke="#1b7298"/>
+    <text x="14" y="22" class="mono cyan" font-size="9" letter-spacing="1.5">02 // SYSTEMS</text>
+    <path d="M14 33H156" stroke="#23617e"/>
+    <g stroke="#39dafa" fill="#0c2940">
+      <rect x="17" y="45" width="136" height="14" rx="2"/><rect x="17" y="66" width="136" height="14" rx="2"/><rect x="17" y="87" width="136" height="14" rx="2"/>
+    </g>
+    <g fill="#55f0ff" class="pulse"><circle cx="28" cy="52" r="2.5"/><circle cx="28" cy="73" r="2.5"/><circle cx="28" cy="94" r="2.5"/></g>
+    <g class="mono muted" font-size="7.5"><text x="39" y="55">NODE_01</text><text x="39" y="76">NODE_02</text><text x="39" y="97">NODE_03</text></g>
+    <text x="154" y="55" class="mono cyan" font-size="7" text-anchor="end">●</text>
+    <text x="154" y="76" class="mono cyan" font-size="7" text-anchor="end">●</text>
+    <text x="154" y="97" class="mono cyan" font-size="7" text-anchor="end">●</text>
   </g>
+  <!-- Network connections behind core -->
+  <g class="line">
+    <path d="M210 138L365 158L500 177L635 158L790 138"/>
+    <path d="M210 228L365 199L500 177L635 199L790 228"/>
+    <path d="M210 138L210 228M790 138L790 228" opacity=".35"/>
+    <path d="M365 158L365 199M635 158L635 199" opacity=".45"/>
+  </g>
+  <g fill="none" stroke="#5cecff" stroke-width="2" filter="url(#glow)" class="flow">
+    <path d="M210 138L365 158L500 177L635 158L790 138"/>
+    <path d="M790 228L635 199L500 177L365 199L210 228"/>
+  </g>
+  <!-- Central reactor -->
+  <g>
+    <circle cx="500" cy="177" r="112" fill="#0a1b30" fill-opacity=".45" stroke="#1a668f" stroke-width="1"/>
+    <circle cx="500" cy="177" r="98" fill="none" stroke="#1c759d" stroke-width="1" stroke-dasharray="2 8" class="spin"/>
+    <circle cx="500" cy="177" r="84" fill="none" stroke="#31d9fa" stroke-width="1.5" stroke-dasharray="42 14 5 14" class="reverse" filter="url(#glow)"/>
+    <circle cx="500" cy="177" r="69" fill="none" stroke="#4e8cff" stroke-width="1" stroke-dasharray="3 7" class="spin"/>
+    <circle cx="500" cy="177" r="57" fill="#0b2944" stroke="#2cbbef" stroke-width="2" filter="url(#glow)"/>
+    <circle cx="500" cy="177" r="47" fill="none" stroke="#7af5ff" stroke-opacity=".65" stroke-width="1"/>
+    <circle cx="500" cy="177" r="38" fill="url(#core)" opacity=".2"/>
+    <circle cx="500" cy="177" r="30" fill="#0a2742" stroke="#79efff" stroke-width="1.5" filter="url(#glow)"/>
+    <path d="M500 143L529 160V194L500 211L471 194V160Z" fill="none" stroke="#65eaff" stroke-width="1.2" opacity=".75"/>
+    <path d="M500 151L522 164V190L500 203L478 190V164Z" fill="url(#core)" opacity=".32"/>
+    <circle cx="500" cy="177" r="13" fill="#8cfaff" filter="url(#glow)" class="pulse"/>
+    <circle cx="500" cy="177" r="4" fill="#ffffff"/>
+    <g class="radar">
+      <path d="M500 177L500 65A112 112 0 0 1 579 98Z" fill="#3ceaff" opacity=".12"/>
+      <path d="M500 177L500 65" stroke="#8df7ff" stroke-width="1.2" filter="url(#glow)"/>
+    </g>
+    <g fill="#9af8ff" filter="url(#glow)">
+      <circle cx="500" cy="65" r="3" class="pulse"/><circle cx="612" cy="177" r="3" class="pulse2"/>
+      <circle cx="500" cy="289" r="3" class="pulse"/><circle cx="388" cy="177" r="3" class="pulse2"/>
+    </g>
+  </g>
+  <!-- Peripheral nodes -->
+  <g filter="url(#glow)">
+    <circle cx="210" cy="138" r="5" fill="#67efff" class="pulse"/><circle cx="210" cy="228" r="5" fill="#67efff" class="pulse2"/>
+    <circle cx="790" cy="138" r="5" fill="#67efff" class="pulse2"/><circle cx="790" cy="228" r="5" fill="#67efff" class="pulse"/>
+    <circle cx="365" cy="158" r="3.5" fill="#a18cff"/><circle cx="635" cy="158" r="3.5" fill="#a18cff"/>
+    <circle cx="365" cy="199" r="3.5" fill="#a18cff"/><circle cx="635" cy="199" r="3.5" fill="#a18cff"/>
+  </g>
+  <!-- Footer telemetry-style decoration, explicitly fictional -->
+  <path d="M30 265H970" stroke="#1c5278" opacity=".7"/>
+  <text x="32" y="283" class="mono muted" font-size="8" letter-spacing="1.2">CORE LINK</text>
+  <text x="32" y="300" class="mono cyan" font-size="10">ESTABLISHED</text>
+  <text x="500" y="283" class="mono muted" font-size="8" text-anchor="middle" letter-spacing="1.2">NETWORK ACTIVITY // VISUAL SIMULATION</text>
+  <g transform="translate(420 294)" fill="#39dffb">
+    <rect width="12" height="5" opacity=".3"/><rect x="16" width="12" height="5" opacity=".5"/>
+    <rect x="32" width="12" height="5" opacity=".7"/><rect x="48" width="12" height="5" class="pulse"/>
+    <rect x="64" width="12" height="5" opacity=".4"/><rect x="80" width="12" height="5" class="pulse2"/>
+    <rect x="96" width="12" height="5" opacity=".6"/><rect x="112" width="12" height="5" opacity=".35"/>
+    <rect x="128" width="12" height="5" class="pulse"/>
+  </g>
+  <text x="968" y="283" class="mono muted" font-size="8" text-anchor="end" letter-spacing="1.2">SECURITY GRID</text>
+  <text x="968" y="300" class="mono" fill="#b09aff" font-size="10" text-anchor="end">ACTIVE // DECORATIVE</text>
+  <text x="500" y="326" class="mono" fill="#436c8b" font-size="7" text-anchor="middle" letter-spacing="2">NO LIVE TELEMETRY • JUST THE CYBERQUEST AESTHETIC</text>
 </g>
-<g opacity="0">
-  <circle cx="450" cy="145" r="24" fill="#fff"><animate attributeName="opacity" values="0;1;0" dur="1.8s" repeatCount="indefinite"/></circle>
-</g>
-<g>
-  <path d="M310 165l10 -10 10 10 -10 10z" fill="#6beaff"><animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;155 -8;0 0" dur="1s" repeatCount="indefinite"/></path>
-  <path d="M490 156l9 -9 9 9 -9 9z" fill="#ff6fa9"><animate attributeName="opacity" values="0;1;0" dur="1.2s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;-115 8;0 0" dur="1.2s" repeatCount="indefinite"/></path>
-  <g transform="translate(452 145)" opacity="0"><path d="M0 -22L6 -6L22 0L6 6L0 22L-6 6L-22 0L-6 -6Z" fill="#ffd36a"><animate attributeName="opacity" values="0;1;0" dur="1.8s" repeatCount="indefinite"/></path></g>
-</g>
-<g font-family="monospace" font-size="12" font-weight="bold">
- <text x="232" y="275" text-anchor="middle" fill="#70e7ff">PLAYER 01</text>
- <text x="625" y="275" text-anchor="middle" fill="#ff75aa">BUG.EXE</text>
- <rect x="130" y="253" width="205" height="8" fill="#263950"/><rect x="130" y="253" width="205" height="8" fill="#50e6ff"><animate attributeName="width" values="205;160;205" dur="4s" repeatCount="indefinite"/></rect>
- <rect x="522" y="253" width="205" height="8" fill="#263950"/><rect x="522" y="253" width="205" height="8" fill="#f24f87"><animate attributeName="width" values="205;135;205" dur="3.5s" repeatCount="indefinite"/></rect>
-</g>
-<text x="450" y="294" font-family="monospace" font-size="9" fill="#6d839f" text-anchor="middle" letter-spacing="1">PIXEL BATTLE LOOP • PORTFOLIO PROJECT</text>
+<rect x="1" y="1" width="998" height="338" rx="13" fill="none" stroke="#267fa7" stroke-width="1.2"/>
 </svg>
